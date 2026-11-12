@@ -1,0 +1,4 @@
+[
+  {"run_id":"run-1","dataset_id":"dataset-a","code_revision":"git:abc123","parameters":{"window":7,"threshold":0.8},"started_at":"2026-01-02T10:00:00Z","status":"succeeded","artifacts":[{"name":"metrics.json","uri":"artifact://run-1/metrics.json","sha256":"hash-1"}]},
+  {"run_id":"run-2","dataset_id":"dataset-a","code_revision":"git:abc123","parameters":{"window":7,"threshold":0.8},"started_at":"2026-01-02T11:00:00Z","status":"succeeded","parent_run_id":"run-1","artifacts":[{"name":"report.csv","uri":"artifact://run-2/report.csv","sha256":"hash-2"}]}
+]

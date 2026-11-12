@@ -1,0 +1,7 @@
+[project]
+name = "scientific-provenance-datahub"
+version = "0.1.0"
+requires-python = ">=3.11"
+
+[project.scripts]
+scientific-provenance-datahub = "scientific_provenance.cli:main"
